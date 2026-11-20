@@ -1,1 +1,200 @@
-[]
+[
+  {
+    "id": "WEB-001",
+    "domaine": "Site",
+    "titre": "Pousser sur GitHub les fichiers modifiés par appliquer-domaine.py",
+    "statut": "en cours",
+    "priorite": "aujourd'hui",
+    "compte": "Moi",
+    "brief": "Le script a été appliqué pour ducoinweb.fr (canonical, og:url, og:image absolue, données structurées, sitemap sans .html, robots.txt). Il reste à envoyer les fichiers dans le dépôt du site, puis vérifier le déploiement. Plan 1.7, 3.1, 3.2.",
+    "etat": "Appliqué en local selon le plan du 2026-10-14, envoi non confirmé.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-002",
+    "domaine": "Contrats",
+    "titre": "Trancher l'acompte puis aligner devis, CGV, contrat et plan",
+    "statut": "bloqué",
+    "priorite": "aujourd'hui",
+    "compte": "Web",
+    "brief": "Devis : 40 % / 60 %. CGV (art. 5 et 13) : 30 % / 70 %. Contrat (art. 11) : 40 %. Plan de lancement 4.1 : 30 % / 70 %. Une fois le pourcentage choisi, j'aligne les quatre documents.",
+    "etat": "Attend ta décision sur le pourcentage.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-003",
+    "domaine": "Contrats",
+    "titre": "Facturation électronique : choisir une plateforme agréée",
+    "statut": "à faire",
+    "priorite": "aujourd'hui",
+    "compte": "Moi",
+    "brief": "Réception des factures électroniques obligatoire depuis 2026-09-01, émission B2B à partir de 2027-09-01. Comparer les offres gratuites (Tiime, Dougs, Abby, Indy) et vérifier le statut sur la liste officielle des plateformes agréées (impots.gouv.fr). Plan 4.6.",
+    "etat": "Pas commencé, déjà en retard sur l'obligation de réception.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-004",
+    "domaine": "Repo",
+    "titre": "Données personnelles dans un repo public",
+    "statut": "à faire",
+    "priorite": "aujourd'hui",
+    "compte": "Moi",
+    "brief": "Les documents du dossier Suivi (devis, CGV, contrat, emails, mode d'emploi) contiennent tes coordonnées d'entreprise, dont une adresse qui semble personnelle. Le repo est public : le rendre privé ou retirer ces documents. Décision à prendre, je ne modifie pas les fichiers existants sans ton accord.",
+    "etat": "Constaté à la lecture du repo, rien modifié.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-005",
+    "domaine": "Prospection",
+    "titre": "Choisir la cible et les codes NAF",
+    "statut": "en cours",
+    "priorite": "aujourd'hui",
+    "compte": "Moi",
+    "brief": "Cible actuelle : entreprises sans site, France entière. Il manque les codes NAF et éventuellement les départements pour lancer le script. Plan 2.1.",
+    "etat": "Cible définie, codes NAF non choisis.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-006",
+    "domaine": "Prospection",
+    "titre": "Générer la liste Sirene et la compléter à la main",
+    "statut": "en cours",
+    "priorite": "cette semaine",
+    "compte": "Moi",
+    "brief": "Lancer 05-liste-sirene.py avec les codes NAF, puis compléter site actuel, téléphone et email pro à la main (Google Maps). Le script n'a jamais tourné sur l'API réelle : en cas d'erreur, me coller le message. Plan 2.3.",
+    "etat": "Script prêt, jamais exécuté sur l'API réelle.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-007",
+    "domaine": "Prospection",
+    "titre": "Remplir 04-suivi-prospects.xlsx",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Moi",
+    "brief": "Une ligne par prospect, source de la donnée obligatoire. Les colonnes grises se calculent seules. Plan 2.6.",
+    "etat": "Fichier vide : 0 prospect, 0 opposition.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-008",
+    "domaine": "Prospection",
+    "titre": "Publier la section Prospection de la politique de confidentialité et ajouter l'URL du site en signature",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Moi",
+    "brief": "Les emails renvoient vers la section Prospection commerciale de la politique de confidentialité du site : elle doit être en ligne avant le premier envoi. Ajouter aussi l'adresse du site en signature des emails. Plan 2.4 et 2.7.",
+    "etat": "Section rédigée, publication non confirmée.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-009",
+    "domaine": "Contrats",
+    "titre": "Relecture juridique de 03, 06, 07 et 08",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Moi",
+    "brief": "À faire avant toute signature client et avant de lancer la prospection. Questions à poser listées dans 03-conformite-prospection, section 5. Points prioritaires : acompte conservé (clause pénale), L. 221-3 et contrat signé après appel, intérêt légitime pour les entrepreneurs individuels. Plan 4.5.",
+    "etat": "Pas envoyé à un juriste d'après le plan.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-010",
+    "domaine": "Contrats",
+    "titre": "Corriger les renvois et écarts entre documents",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Web",
+    "brief": "Le mode d'emploi client (10) renvoie à l'article 12 du contrat pour les devis après livraison, alors que c'est l'article 11 (et l'art. 8 des CGV). Délai : le site dit 5 jours, les CGV 5 jours ouvrés. À traiter avec WEB-002 pour ne modifier chaque document qu'une fois.",
+    "etat": "Écarts relevés, pas corrigés.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-011",
+    "domaine": "SEO",
+    "titre": "Aligner le texte du site sur l'éligibilité à la fiche Google",
+    "statut": "bloqué",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "Le site promet la fiche Google Business Profile sans condition (section référencement, tableau des formules, FAQ de l'accueil). Devis et CGV disent \"si l'activité y est éligible\". Choisir la formulation puis modifier le site.",
+    "etat": "Attend ta décision.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-012",
+    "domaine": "SEO",
+    "titre": "Search Console et fiche Google Business Profile",
+    "statut": "bloqué",
+    "priorite": "cette semaine",
+    "compte": "Moi",
+    "brief": "Vérifier d'abord ton éligibilité à une fiche (reçois-tu des clients en personne ?). Search Console : propriété Domaine, TXT DNS, envoi du sitemap, inspection des 4 pages. Voir 09-guide. Plan 1.11, 3.5, 3.6.",
+    "etat": "Attend WEB-001 et la vérification d'éligibilité.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-013",
+    "domaine": "SEO",
+    "titre": "Remplir suivi-seo.xlsx pour ducoinweb.fr",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "Checklist : 41 tâches Base et 16 Renforcé, toutes à faire. Onglet Pages : une ligne d'exemple à remplacer par les pages réelles (title, meta, indexation). À faire après WEB-001.",
+    "etat": "Fichier non rempli.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-014",
+    "domaine": "SEO",
+    "titre": "Contenu : une page par intention de recherche",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "Titres et textes par intention de recherche. Le site compte aujourd'hui 4 pages publiques. Plan 3.4.",
+    "etat": "Pas commencé.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-015",
+    "domaine": "Site",
+    "titre": "Page contact : performance mobile de 89 à 90 ou plus",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "Lighthouse mobile : contact à 89 en performance, objectif 90 et plus (phase 8.3). Le calendrier meetergo est déjà chargé après l'affichage. Besoin du rapport JSON de la page pour corriger.",
+    "etat": "Score relevé le 2026-10, pas de correction faite.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-016",
+    "domaine": "Site",
+    "titre": "Vérifier le rappel meetergo et lire les conditions Formspree",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Moi",
+    "brief": "meetergo : confirmer que le rappel avant l'appel est bien envoyé. Formspree : lire les conditions complètes, l'offre gratuite 50 envois par mois est présentée comme destinée aux tests. Plan 1.6b et 1.12.",
+    "etat": "Deux vérifications ouvertes.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-017",
+    "domaine": "Outils",
+    "titre": "Confirmer les prix du panorama des outils sur les pages fournisseurs",
+    "statut": "en cours",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "Seuls Cloudflare, Formspree, meetergo et Vercel viennent de leur documentation. Le reste vient de comparateurs. À confirmer avant tout achat, dont les limites d'Umami Cloud. Plan 5.1.",
+    "etat": "Document rédigé le 2026-10-13, prix non revérifiés.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-018",
+    "domaine": "Site",
+    "titre": "Noter l'échéance du domaine ducoinweb.fr et poser un rappel",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Moi",
+    "brief": "Première année à 4,99 € HT, renouvellement à 7,79 € HT chez OVH (relevés de juillet 2026). Activer le renouvellement automatique et la double authentification.",
+    "etat": "Échéance exacte absente du repo.",
+    "date": "2026-11-20"
+  }
+]
