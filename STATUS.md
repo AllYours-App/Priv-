@@ -16,12 +16,19 @@ En cours :
 - Panorama des outils : prix à confirmer sur les pages des fournisseurs.
 
 Bloqué :
-- Acompte incohérent entre les documents : devis 40 % / 60 %, CGV 30 % / 70 %, contrat (art. 11) 40 %, plan de lancement 30 % / 70 %. Attend ta décision.
-- Promesse de la fiche Google Business Profile : le site la donne sans condition, devis et CGV disent "si éligible". Attend ta décision.
 - Search Console et fiche Google : attendent l'envoi des fichiers sur GitHub et la vérification d'éligibilité.
 
+Incohérences relevées (toutes en tâches à faire, WEB-002, 010, 011, 019 à 025) :
+- Acompte 40 % / 60 % (devis, contrat) contre 30 % / 70 % (CGV, plan). Décision à prendre.
+- Délai "5 jours" (site, emails, script) contre "5 jours ouvrés" (CGV, devis, contrat).
+- Fiche Google promise sans condition sur le site, "si éligible" ailleurs.
+- Frais de tiers : devis et CGV disent option A, le contrat laisse A et B ouvertes.
+- Emails 01 : variable [Prénom] sans colonne correspondante dans le tableau 04.
+- Mode d'emploi client : renvoie à l'article 12 au lieu du 11.
+- Plan : 5 pages contre 4 pages publiques, Pages contre Workers, phases 6 à 8 en double, 11 réponses contre 12.
+
 Prochaine étape :
-- Trancher l'acompte, puis que j'aligne devis, CGV, contrat et plan.
+- Trancher acompte, délai, formulation de la fiche Google et option A ou B, puis j'aligne les documents.
 - Pousser les fichiers du site sur GitHub, puis Search Console.
 - Choisir les codes NAF, lancer 05-liste-sirene.py.
 - Mettre en ligne la section Prospection de la politique de confidentialité avant tout premier email.
