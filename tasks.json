@@ -13,12 +13,12 @@
   {
     "id": "WEB-002",
     "domaine": "Contrats",
-    "titre": "Trancher l'acompte puis aligner devis, CGV, contrat et plan",
-    "statut": "bloqué",
+    "titre": "Incohérence acompte : aligner devis, CGV, contrat et plan",
+    "statut": "à faire",
     "priorite": "aujourd'hui",
     "compte": "Web",
-    "brief": "Devis : 40 % / 60 %. CGV (art. 5 et 13) : 30 % / 70 %. Contrat (art. 11) : 40 %. Plan de lancement 4.1 : 30 % / 70 %. Une fois le pourcentage choisi, j'aligne les quatre documents.",
-    "etat": "Attend ta décision sur le pourcentage.",
+    "brief": "Devis : 40 % / 60 %. CGV (art. 5 et 13) : 30 % / 70 %. Contrat (art. 11) : 40 %. Plan de lancement 4.1 : 30 % / 70 %. Choisir le pourcentage (décision de Moi), puis j'aligne les quatre documents.",
+    "etat": "À faire. Je commence dès que tu as choisi le pourcentage.",
     "date": "2026-11-20"
   },
   {
@@ -101,23 +101,23 @@
   {
     "id": "WEB-010",
     "domaine": "Contrats",
-    "titre": "Corriger les renvois et écarts entre documents",
+    "titre": "Incohérence mode d'emploi client (10) : mauvais renvoi d'article",
     "statut": "à faire",
     "priorite": "cette semaine",
     "compte": "Web",
-    "brief": "Le mode d'emploi client (10) renvoie à l'article 12 du contrat pour les devis après livraison, alors que c'est l'article 11 (et l'art. 8 des CGV). Délai : le site dit 5 jours, les CGV 5 jours ouvrés. À traiter avec WEB-002 pour ne modifier chaque document qu'une fois.",
-    "etat": "Écarts relevés, pas corrigés.",
+    "brief": "Le mode d'emploi renvoie à l'article 12 du contrat (données personnelles) pour les devis après livraison : c'est l'article 11 du contrat et l'article 8 des CGV. La phrase sur le rappel du domaine (dans 1 an, 60 jours avant l'échéance) est ambiguë et ne dit pas la même chose que l'article 6 du contrat (rappel pour renouveler dans 1 an).",
+    "etat": "Écart relevé, pas corrigé.",
     "date": "2026-11-20"
   },
   {
     "id": "WEB-011",
     "domaine": "SEO",
-    "titre": "Aligner le texte du site sur l'éligibilité à la fiche Google",
-    "statut": "bloqué",
+    "titre": "Incohérence fiche Google : le site la promet sans condition, devis et CGV disent \"si éligible\"",
+    "statut": "à faire",
     "priorite": "plus tard",
     "compte": "Web",
-    "brief": "Le site promet la fiche Google Business Profile sans condition (section référencement, tableau des formules, FAQ de l'accueil). Devis et CGV disent \"si l'activité y est éligible\". Choisir la formulation puis modifier le site.",
-    "etat": "Attend ta décision.",
+    "brief": "Le site promet la fiche Google Business Profile sans condition (section référencement, tableau des formules, FAQ de l'accueil). Le devis et les CGV disent \"si l'activité y est éligible\", comme le guide 09. Choisir la formulation (décision de Moi), puis modifier le site.",
+    "etat": "À faire. Attend ta décision sur la formulation.",
     "date": "2026-11-20"
   },
   {
@@ -195,6 +195,83 @@
     "compte": "Moi",
     "brief": "Première année à 4,99 € HT, renouvellement à 7,79 € HT chez OVH (relevés de juillet 2026). Activer le renouvellement automatique et la double authentification.",
     "etat": "Échéance exacte absente du repo.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-019",
+    "domaine": "Contrats",
+    "titre": "Incohérence délai : \"5 jours\" ou \"5 jours ouvrés\"",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Web",
+    "brief": "Le site, les emails de prospection (01) et le script d'appel (02) disent \"5 jours\". Les CGV (art. 6), le devis et le contrat disent 5 jours ouvrés. La note des CGV le signale déjà. Choisir jours ouvrés ou calendaires, puis aligner site, 01, 02, 06, 07 et 08.",
+    "etat": "Écart relevé à la lecture du repo, pas corrigé.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-020",
+    "domaine": "Prospection",
+    "titre": "Incohérence emails (01) et tableau de suivi (04) : colonnes qui n'existent pas",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Web",
+    "brief": "01 demande [Prénom] depuis une \"colonne Nom\" du tableau, mais 04 n'a aucune colonne pour le prénom ou le nom du contact (seulement Nom de l'entreprise). Les noms de colonnes cités dans 01 et 03 diffèrent aussi de ceux de 04 : \"Date 1er contact\" au lieu de \"Date du 1er contact\", \"Relance 1\" et \"Relance 2\" au lieu de \"Relance 1 envoyée le\" et \"Relance 2 envoyée le\". Ajouter une colonne contact à 04 (en gardant les formules) et aligner les noms dans 01 et 03.",
+    "etat": "Écart relevé à la lecture du repo, pas corrigé.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-021",
+    "domaine": "Site",
+    "titre": "À vérifier : 5 pages ou 4 pages publiques",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "Le plan (1.1, 1.1b) parle des \"5 pages\" du site. Le guide 09 et appliquer-domaine.py en comptent 4 publiques (accueil, contact, mentions légales, confidentialité). Vérifier dans le dépôt du site ce que recouvre la 5e page (404 ?), puis corriger le texte du plan ou le script. Impacte aussi suivi-seo.xlsx.",
+    "etat": "Écart relevé, dépôt du site non lu.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-022",
+    "domaine": "Autre",
+    "titre": "Incohérence plan 1.5 : \"Cloudflare Pages\" au lieu de Workers",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "Le plan 1.5 dit Cloudflare Pages, mais l'adresse provisoire est en workers.dev, le plan 1.10 parle d'un Worker et le panorama des outils de Cloudflare Workers. Corriger le libellé du plan.",
+    "etat": "Écart relevé à la lecture du repo, pas corrigé.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-023",
+    "domaine": "Autre",
+    "titre": "Incohérence : phases 6 à 8 en double et différentes",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "plan-de-lancement.docx (14 oct) et plan-de-lancement-client.docx (11 oct) contiennent les mêmes phases 6 à 8 avec des écarts : qui fait 6.8 (Toi + client / Client + toi), 6.10 (Toi / Toi + moi), 6.14 et 6.20 formulés autrement. Garder le plan client comme référence et remplacer les phases 6 à 8 du plan général par un renvoi.",
+    "etat": "Écart relevé à la lecture du repo, pas corrigé.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-024",
+    "domaine": "Prospection",
+    "titre": "Incohérence plan 2.5 : \"11 réponses\" alors que le script en a 12",
+    "statut": "à faire",
+    "priorite": "plus tard",
+    "compte": "Web",
+    "brief": "Le plan 2.5 annonce 11 réponses aux objections, 02-script-appel.docx en contient 12. Corriger le plan.",
+    "etat": "Écart relevé à la lecture du repo, pas corrigé.",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "WEB-025",
+    "domaine": "Contrats",
+    "titre": "Incohérence frais de tiers : option A ou B du contrat, devis et CGV disent A",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Web",
+    "brief": "Le devis et les CGV (art. 2 et 4) disent que le client paie le domaine directement (option A). Le contrat laisse A et B ouvertes, et le plan 7.5 dit \"le client paie, ou tu paies et tu refactures\". Choisir A ou B (décision de Moi), puis garder une seule option dans le contrat et aligner devis, CGV et phase 7.5. L'option B est à faire valider par le juriste.",
+    "etat": "Écart relevé à la lecture du repo, pas corrigé.",
     "date": "2026-11-20"
   }
 ]
