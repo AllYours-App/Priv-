@@ -2,7 +2,8 @@
 
 Fait :
 - WEB-002 : acompte aligné à 30 % / 70 % dans le devis 06 et le contrat 08 (2026-11-21).
-- WEB-011 et WEB-027 : "sous réserve d'éligibilité" appliqué dans mywebsite (accueil, Tarifs, CGV, FAQ, Déroulement). WEB-001 : fichiers SEO présents dans mywebsite.
+- WEB-012 : fiche Google créée, sitemap envoyé.
+- WEB-011 et WEB-027 : "sous réserve d'éligibilité" poussé dans mywebsite (accueil, Tarifs, CGV, FAQ, Déroulement), mais pas encore visible en ligne sur Tarifs au 2026-11-21 : déploiement à vérifier. WEB-001 : fichiers SEO présents dans mywebsite.
 - WEB-021 : plan, guide 09 et appliquer-domaine.py alignés sur les 14 pages publiques du site (+ la 404).
 - Repo relu le 2026-11-21 : STATUS, tasks.json, 15 fichiers du dossier Suivi (6 sous-dossiers), pas de README. data/done.json absent de Central (data/ ne contient que inbox.json) : aucune tâche à Moi marquée faite. Les statuts ci-dessous viennent du plan de lancement mis à jour le 2026-10-14 : tout ce qui s'est passé depuis n'est pas dans le repo.
 - Site vitrine en ligne sur ducoinweb.fr (domaine OVH, DNS Cloudflare, Worker, HTTPS testé). Formulaire Formspree testé, rendez-vous meetergo intégré, mentions légales et confidentialité renseignées, aucun cookie.
@@ -13,7 +14,6 @@ Fait :
 - Procédures : plan de lancement client à dupliquer (phases 6 à 8), mode d'emploi client (10), panorama des outils (phase 5).
 
 En cours :
-- Search Console actif (WEB-012) : 11 pages indexées, 20 non indexées dont 15 redirections au 2026-11-16 ; fiche Google créée. Reste à confirmer l'envoi du sitemap et l'inspection des pages.
 - Choix de la cible de prospection (codes NAF) et constitution de la liste. Le script 05 n'a jamais tourné sur l'API réelle.
 - Tableau de suivi prospects : 0 ligne saisie, 0 opposition.
 - Panorama des outils : prix à confirmer sur les pages des fournisseurs.
