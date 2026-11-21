@@ -1,7 +1,7 @@
 [
   {
     "id": "WEB-001",
-    "domaine": "Site",
+    "domaine": "Sites web",
     "titre": "Pousser sur GitHub les fichiers modifiés par appliquer-domaine.py",
     "statut": "en cours",
     "priorite": "aujourd'hui",
@@ -12,18 +12,18 @@
   },
   {
     "id": "WEB-002",
-    "domaine": "Contrats",
+    "domaine": "Sites web",
     "titre": "Incohérence acompte : aligner devis, CGV, contrat et plan",
-    "statut": "à faire",
+    "statut": "bloqué",
     "priorite": "aujourd'hui",
     "compte": "Web",
     "brief": "Devis : 40 % / 60 %. CGV (art. 5 et 13) : 30 % / 70 %. Contrat (art. 11) : 40 %. Plan de lancement 4.1 : 30 % / 70 %. Choisir le pourcentage (décision de Moi), puis j'aligne les quatre documents.",
-    "etat": "À faire. Je commence dès que tu as choisi le pourcentage.",
-    "date": "2026-11-20"
+    "etat": "Bloqué : attend ta décision sur le pourcentage d'acompte (WEB-026).",
+    "date": "2026-11-21"
   },
   {
     "id": "WEB-003",
-    "domaine": "Contrats",
+    "domaine": "Sites web",
     "titre": "Facturation électronique : choisir une plateforme agréée",
     "statut": "à faire",
     "priorite": "aujourd'hui",
@@ -34,7 +34,7 @@
   },
   {
     "id": "WEB-004",
-    "domaine": "Repo",
+    "domaine": "Sites web",
     "titre": "Données personnelles dans un repo public",
     "statut": "à faire",
     "priorite": "aujourd'hui",
@@ -45,7 +45,7 @@
   },
   {
     "id": "WEB-005",
-    "domaine": "Prospection",
+    "domaine": "Sites web",
     "titre": "Choisir la cible et les codes NAF",
     "statut": "en cours",
     "priorite": "aujourd'hui",
@@ -56,7 +56,7 @@
   },
   {
     "id": "WEB-006",
-    "domaine": "Prospection",
+    "domaine": "Sites web",
     "titre": "Générer la liste Sirene et la compléter à la main",
     "statut": "en cours",
     "priorite": "cette semaine",
@@ -67,7 +67,7 @@
   },
   {
     "id": "WEB-007",
-    "domaine": "Prospection",
+    "domaine": "Sites web",
     "titre": "Remplir 04-suivi-prospects.xlsx",
     "statut": "à faire",
     "priorite": "cette semaine",
@@ -78,7 +78,7 @@
   },
   {
     "id": "WEB-008",
-    "domaine": "Prospection",
+    "domaine": "Sites web",
     "titre": "Publier la section Prospection de la politique de confidentialité et ajouter l'URL du site en signature",
     "statut": "à faire",
     "priorite": "cette semaine",
@@ -89,7 +89,7 @@
   },
   {
     "id": "WEB-009",
-    "domaine": "Contrats",
+    "domaine": "Sites web",
     "titre": "Relecture juridique de 03, 06, 07 et 08",
     "statut": "à faire",
     "priorite": "cette semaine",
@@ -100,7 +100,7 @@
   },
   {
     "id": "WEB-010",
-    "domaine": "Contrats",
+    "domaine": "Sites web",
     "titre": "Incohérence mode d'emploi client (10) : mauvais renvoi d'article",
     "statut": "à faire",
     "priorite": "cette semaine",
@@ -111,18 +111,18 @@
   },
   {
     "id": "WEB-011",
-    "domaine": "SEO",
+    "domaine": "Sites web",
     "titre": "Incohérence fiche Google : le site la promet sans condition, devis et CGV disent \"si éligible\"",
-    "statut": "à faire",
+    "statut": "bloqué",
     "priorite": "plus tard",
     "compte": "Web",
     "brief": "Le site promet la fiche Google Business Profile sans condition (section référencement, tableau des formules, FAQ de l'accueil). Le devis et les CGV disent \"si l'activité y est éligible\", comme le guide 09. Choisir la formulation (décision de Moi), puis modifier le site.",
-    "etat": "À faire. Attend ta décision sur la formulation.",
-    "date": "2026-11-20"
+    "etat": "Bloqué : attend ta décision sur la formulation de la fiche Google (WEB-026).",
+    "date": "2026-11-21"
   },
   {
     "id": "WEB-012",
-    "domaine": "SEO",
+    "domaine": "Sites web",
     "titre": "Search Console et fiche Google Business Profile",
     "statut": "bloqué",
     "priorite": "cette semaine",
@@ -133,7 +133,7 @@
   },
   {
     "id": "WEB-013",
-    "domaine": "SEO",
+    "domaine": "Sites web",
     "titre": "Remplir suivi-seo.xlsx pour ducoinweb.fr",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -144,7 +144,7 @@
   },
   {
     "id": "WEB-014",
-    "domaine": "SEO",
+    "domaine": "Sites web",
     "titre": "Contenu : une page par intention de recherche",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -155,7 +155,7 @@
   },
   {
     "id": "WEB-015",
-    "domaine": "Site",
+    "domaine": "Sites web",
     "titre": "Page contact : performance mobile de 89 à 90 ou plus",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -166,7 +166,7 @@
   },
   {
     "id": "WEB-016",
-    "domaine": "Site",
+    "domaine": "Sites web",
     "titre": "Vérifier le rappel meetergo et lire les conditions Formspree",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -177,7 +177,7 @@
   },
   {
     "id": "WEB-017",
-    "domaine": "Outils",
+    "domaine": "Sites web",
     "titre": "Confirmer les prix du panorama des outils sur les pages fournisseurs",
     "statut": "en cours",
     "priorite": "plus tard",
@@ -188,7 +188,7 @@
   },
   {
     "id": "WEB-018",
-    "domaine": "Site",
+    "domaine": "Sites web",
     "titre": "Noter l'échéance du domaine ducoinweb.fr et poser un rappel",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -199,18 +199,18 @@
   },
   {
     "id": "WEB-019",
-    "domaine": "Contrats",
+    "domaine": "Sites web",
     "titre": "Incohérence délai : \"5 jours\" ou \"5 jours ouvrés\"",
-    "statut": "à faire",
+    "statut": "bloqué",
     "priorite": "cette semaine",
     "compte": "Web",
     "brief": "Le site, les emails de prospection (01) et le script d'appel (02) disent \"5 jours\". Les CGV (art. 6), le devis et le contrat disent 5 jours ouvrés. La note des CGV le signale déjà. Choisir jours ouvrés ou calendaires, puis aligner site, 01, 02, 06, 07 et 08.",
-    "etat": "Écart relevé à la lecture du repo, pas corrigé.",
-    "date": "2026-11-20"
+    "etat": "Bloqué : attend ta décision jours ouvrés ou calendaires (WEB-026).",
+    "date": "2026-11-21"
   },
   {
     "id": "WEB-020",
-    "domaine": "Prospection",
+    "domaine": "Sites web",
     "titre": "Incohérence emails (01) et tableau de suivi (04) : colonnes qui n'existent pas",
     "statut": "à faire",
     "priorite": "cette semaine",
@@ -221,7 +221,7 @@
   },
   {
     "id": "WEB-021",
-    "domaine": "Site",
+    "domaine": "Sites web",
     "titre": "À vérifier : 5 pages ou 4 pages publiques",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -232,7 +232,7 @@
   },
   {
     "id": "WEB-022",
-    "domaine": "Autre",
+    "domaine": "Sites web",
     "titre": "Incohérence plan 1.5 : \"Cloudflare Pages\" au lieu de Workers",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -243,7 +243,7 @@
   },
   {
     "id": "WEB-023",
-    "domaine": "Autre",
+    "domaine": "Sites web",
     "titre": "Incohérence : phases 6 à 8 en double et différentes",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -254,7 +254,7 @@
   },
   {
     "id": "WEB-024",
-    "domaine": "Prospection",
+    "domaine": "Sites web",
     "titre": "Incohérence plan 2.5 : \"11 réponses\" alors que le script en a 12",
     "statut": "à faire",
     "priorite": "plus tard",
@@ -265,13 +265,24 @@
   },
   {
     "id": "WEB-025",
-    "domaine": "Contrats",
+    "domaine": "Sites web",
     "titre": "Incohérence frais de tiers : option A ou B du contrat, devis et CGV disent A",
-    "statut": "à faire",
+    "statut": "bloqué",
     "priorite": "cette semaine",
     "compte": "Web",
     "brief": "Le devis et les CGV (art. 2 et 4) disent que le client paie le domaine directement (option A). Le contrat laisse A et B ouvertes, et le plan 7.5 dit \"le client paie, ou tu paies et tu refactures\". Choisir A ou B (décision de Moi), puis garder une seule option dans le contrat et aligner devis, CGV et phase 7.5. L'option B est à faire valider par le juriste.",
-    "etat": "Écart relevé à la lecture du repo, pas corrigé.",
-    "date": "2026-11-20"
+    "etat": "Bloqué : attend ta décision option A ou B pour les frais de tiers (WEB-026).",
+    "date": "2026-11-21"
+  },
+  {
+    "id": "WEB-026",
+    "domaine": "Sites web",
+    "titre": "Décisions en attente : acompte, délai, fiche Google, frais de tiers",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Moi",
+    "brief": "4 choix à faire pour que j'aligne les documents. 1) Acompte : 30 % / 70 % (CGV, plan) ou 40 % / 60 % (devis, contrat) ? [WEB-002]. 2) Délai : 5 jours ouvrés (CGV, devis, contrat) ou 5 jours calendaires (site, emails 01, script 02) ? [WEB-019]. 3) Fiche Google : promise sans condition (site actuel) ou \"si l'activité est éligible\" (devis, CGV, guide 09) ? [WEB-011]. 4) Frais de tiers : option A (le client paie le domaine, devis et CGV) ou option B (tu paies et tu refactures, à valider par le juriste) ? [WEB-025].",
+    "etat": "En attente de tes 4 réponses.",
+    "date": "2026-11-21"
   }
 ]
