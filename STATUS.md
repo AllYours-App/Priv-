@@ -12,26 +12,26 @@ Fait :
 - Procédures : plan de lancement client à dupliquer (phases 6 à 8), mode d'emploi client (10), panorama des outils (phase 5).
 
 En cours :
+- Search Console actif (WEB-012) : 11 pages indexées, 20 non indexées dont 15 redirections au 2026-11-16 ; fiche Google créée. Reste à confirmer l'envoi du sitemap et l'inspection des pages.
 - Choix de la cible de prospection (codes NAF) et constitution de la liste. Le script 05 n'a jamais tourné sur l'API réelle.
 - Tableau de suivi prospects : 0 ligne saisie, 0 opposition.
 - Panorama des outils : prix à confirmer sur les pages des fournisseurs.
 
 Bloqué :
-- Rien de bloqué. Search Console est actif (rapport d'indexation du 2026-11-21 : 11 pages indexées, 20 non indexées, dont 15 redirections).
+- Rien de bloqué.
 
 Incohérences relevées (WEB-002, 010, 011, 019 à 025) :
-- Acompte 40 % / 60 % (devis, contrat) contre 30 % / 70 % (CGV, plan). Décision à prendre.
-- Délai "5 jours" (site, emails, script) contre "5 jours ouvrés" (CGV, devis, contrat).
-- Fiche Google promise sans condition sur le site, "si éligible" ailleurs.
-- Frais de tiers : devis et CGV disent option A, le contrat laisse A et B ouvertes.
+- Acompte : réglé (30 % / 70 %).
+- Délai : décidé (5 jours après réception des textes, réponses client sous 5 jours ouvrés), à aligner dans 01, 02, 06, 07 et 08.
+- Fiche Google : réglé ("sous réserve d'éligibilité" partout).
+- Frais de tiers : option A décidée, à garder seule dans le contrat 08.
 - Emails 01 : variable [Prénom] sans colonne correspondante dans le tableau 04.
 - Mode d'emploi client : renvoie à l'article 12 au lieu du 11.
 - Plan : 5 pages contre 4 pages publiques, Pages contre Workers, phases 6 à 8 en double, 11 réponses contre 12.
 
 Prochaine étape :
 - Décisions tirées du site en ligne : acompte 30 % / 70 %, délai de 5 jours (réponses client sous 5 jours ouvrés), option A pour le domaine. J'aligne les documents du repo : WEB-002 fait (acompte 30 % / 70 % dans 06 et 08), WEB-019 en cours, puis 025, 010, 020.
-- WEB-026 fait : plus aucune décision en attente.
-- Pousser les fichiers du site sur GitHub, puis Search Console.
+- Plus aucune décision en attente.
 - Choisir les codes NAF, lancer 05-liste-sirene.py.
 - Mettre en ligne la section Prospection de la politique de confidentialité avant tout premier email.
 - Envoyer 03, 06, 07 et 08 à un juriste avant toute signature ou prospection.
