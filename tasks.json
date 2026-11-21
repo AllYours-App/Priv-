@@ -3,11 +3,11 @@
     "id": "WEB-001",
     "domaine": "Sites web",
     "titre": "Pousser sur GitHub les fichiers modifiés par appliquer-domaine.py",
-    "statut": "en cours",
+    "statut": "fait",
     "priorite": "aujourd'hui",
     "compte": "Moi",
     "brief": "Le script a été appliqué pour ducoinweb.fr (canonical, og:url, og:image absolue, données structurées, sitemap sans .html, robots.txt). Il reste à envoyer les fichiers dans le dépôt du site, puis vérifier le déploiement. Plan 1.7, 3.1, 3.2.",
-    "etat": "Page d'accueil en ligne le 2026-11-21 : canonical, og:url et og:image absolus présents. Envoi des fichiers dans le dépôt du site non confirmé.",
+    "etat": "Fait : canonical, og:url et og:image absolus sur les 14 pages publiques, données structurées sur l'accueil, sitemap sans .html, robots.txt présents dans mywebsite.",
     "date": "2026-11-21"
   },
   {
@@ -113,11 +113,11 @@
     "id": "WEB-011",
     "domaine": "Sites web",
     "titre": "Incohérence fiche Google : le site la promet sans condition, devis et CGV disent \"si éligible\"",
-    "statut": "bloqué",
+    "statut": "fait",
     "priorite": "plus tard",
     "compte": "Web",
     "brief": "Le site promet la fiche Google Business Profile sans condition (section référencement, tableau des formules, FAQ de l'accueil). Le devis et les CGV disent \"si l'activité y est éligible\", comme le guide 09. Choisir la formulation (décision de Moi), puis modifier le site.",
-    "etat": "Choix A reçu. Documents du repo déjà conformes (02, 06, 07). Reste le site en ligne, que je ne peux pas modifier : voir WEB-027.",
+    "etat": "Fait : \"sous réserve d'éligibilité\" sur accueil, Tarifs, CGV, FAQ et Déroulement (mywebsite). Documents du repo WebDesign déjà conformes.",
     "date": "2026-11-21"
   },
   {
@@ -128,7 +128,7 @@
     "priorite": "cette semaine",
     "compte": "Moi",
     "brief": "Vérifier d'abord ton éligibilité à une fiche (reçois-tu des clients en personne ?). Search Console : propriété Domaine, TXT DNS, envoi du sitemap, inspection des 4 pages. Voir 09-guide. Plan 1.11, 3.5, 3.6.",
-    "etat": "Search Console actif (11 pages indexées, 20 non indexées, dont 15 redirections, au 2026-11-16). Éligibilité à la fiche Google confirmée par Moi : il rencontre ses clients. Reste à créer la fiche.",
+    "etat": "Fiche Google déjà créée (Moi). Search Console actif (11 pages indexées, 20 non indexées dont 15 redirections, au 2026-11-16). Reste à confirmer : sitemap envoyé et pages inspectées.",
     "date": "2026-11-21"
   },
   {
@@ -227,7 +227,7 @@
     "priorite": "plus tard",
     "compte": "Web",
     "brief": "Le plan (1.1, 1.1b) parle des \"5 pages\" du site. Le guide 09 et appliquer-domaine.py en comptent 4 publiques (accueil, contact, mentions légales, confidentialité). Vérifier dans le dépôt du site ce que recouvre la 5e page (404 ?), puis corriger le texte du plan ou le script. Impacte aussi suivi-seo.xlsx.",
-    "etat": "Le site en ligne compte bien plus que 4 pages (Tarifs, Réalisations, Déroulement, FAQ, À propos, Contact, CGV, 4 guides, mentions légales, confidentialité). Dépôt du site non lu : liste à confirmer avant de corriger plan et script.",
+    "etat": "Le dépôt mywebsite compte 14 pages publiques dans le sitemap (accueil, Tarifs, Réalisations, Déroulement, FAQ, À propos, Contact, 4 guides, mentions légales, confidentialité, CGV) plus 404.html sans canonical. Le plan (5 pages) et appliquer-domaine.py (4 pages) sont à corriger.",
     "date": "2026-11-21"
   },
   {
@@ -289,11 +289,11 @@
     "id": "WEB-027",
     "domaine": "Sites web",
     "titre": "Site en ligne : fiche Google \"sous réserve d'éligibilité\" sur Accueil, Tarifs et CGV",
-    "statut": "à faire",
+    "statut": "fait",
     "priorite": "cette semaine",
     "compte": "Moi",
     "brief": "3 modifications dans le dépôt du site. Accueil : \"Fiche Google Business Profile créée à votre nom\" devient \"Fiche Google Business Profile à votre nom, si votre activité y est éligible\", idem dans la liste de l'Essentiel et dans la phrase \"Je crée aussi votre fiche...\". Tarifs : ligne \"Fiche Google Business Profile\", \"Inclus\" devient \"Inclus si éligible\" (Essentiel et Complet). CGV art. 2 : \"...avec référencement de base et création de la fiche Google Business Profile\" devient \"...avec référencement de base et, lorsque l'activité du client y est éligible selon les règles de Google, création de la fiche Google Business Profile\". À vérifier aussi : pages FAQ et Déroulement, non lues.",
-    "etat": "Pas commencé.",
+    "etat": "Fait par Web dans le dépôt mywebsite : accueil, Tarifs, CGV (date passée au 21 novembre 2026), FAQ et Déroulement.",
     "date": "2026-11-21"
   }
 ]
