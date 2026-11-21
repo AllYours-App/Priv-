@@ -2,6 +2,7 @@
 
 Fait :
 - WEB-002 : acompte aligné à 30 % / 70 % dans le devis 06 et le contrat 08 (2026-11-21).
+- WEB-011 et WEB-027 : "sous réserve d'éligibilité" appliqué dans mywebsite (accueil, Tarifs, CGV, FAQ, Déroulement). WEB-001 : fichiers SEO présents dans mywebsite.
 - Repo relu le 2026-11-21 : STATUS, tasks.json, 15 fichiers du dossier Suivi (6 sous-dossiers), pas de README. data/done.json absent de Central (data/ ne contient que inbox.json) : aucune tâche à Moi marquée faite. Les statuts ci-dessous viennent du plan de lancement mis à jour le 2026-10-14 : tout ce qui s'est passé depuis n'est pas dans le repo.
 - Site vitrine en ligne sur ducoinweb.fr (domaine OVH, DNS Cloudflare, Worker, HTTPS testé). Formulaire Formspree testé, rendez-vous meetergo intégré, mentions légales et confidentialité renseignées, aucun cookie.
 - Tests : accueil à 100 partout, contact à 89 en performance et 100 pour le reste.
@@ -11,14 +12,12 @@ Fait :
 - Procédures : plan de lancement client à dupliquer (phases 6 à 8), mode d'emploi client (10), panorama des outils (phase 5).
 
 En cours :
-- Envoi sur GitHub des fichiers modifiés par appliquer-domaine.py (canonical, og:url, og:image, données structurées, sitemap). Pas confirmé poussé.
 - Choix de la cible de prospection (codes NAF) et constitution de la liste. Le script 05 n'a jamais tourné sur l'API réelle.
 - Tableau de suivi prospects : 0 ligne saisie, 0 opposition.
 - Panorama des outils : prix à confirmer sur les pages des fournisseurs.
 
 Bloqué :
-- Fiche Google (WEB-012) : éligibilité confirmée, fiche à créer. Search Console est actif (rapport d'indexation du 2026-11-21 : 11 pages indexées, 20 non indexées, dont 15 redirections).
-- WEB-011 : choix A ("sous réserve d'éligibilité"). Repo conforme, reste à modifier le site en ligne (WEB-027, à Moi).
+- Rien de bloqué. Search Console est actif (rapport d'indexation du 2026-11-21 : 11 pages indexées, 20 non indexées, dont 15 redirections).
 
 Incohérences relevées (WEB-002, 010, 011, 019 à 025) :
 - Acompte 40 % / 60 % (devis, contrat) contre 30 % / 70 % (CGV, plan). Décision à prendre.
@@ -39,4 +38,4 @@ Prochaine étape :
 - Choisir une plateforme de facturation électronique (réception obligatoire depuis le 2026-09-01).
 
 Mis à jour le : 2026-11-21
-Rythme : 1 tâche terminée sur la dernière fenêtre de 5 h
+Rythme : 4 tâches terminées sur la dernière fenêtre de 5 h
