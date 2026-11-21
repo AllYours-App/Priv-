@@ -124,12 +124,12 @@
     "id": "WEB-012",
     "domaine": "Sites web",
     "titre": "Search Console et fiche Google Business Profile",
-    "statut": "bloqué",
+    "statut": "en cours",
     "priorite": "cette semaine",
     "compte": "Moi",
     "brief": "Vérifier d'abord ton éligibilité à une fiche (reçois-tu des clients en personne ?). Search Console : propriété Domaine, TXT DNS, envoi du sitemap, inspection des 4 pages. Voir 09-guide. Plan 1.11, 3.5, 3.6.",
-    "etat": "Attend WEB-001 et la vérification d'éligibilité.",
-    "date": "2026-11-20"
+    "etat": "Search Console actif : rapport d'indexation du 2026-11-21 reçu (données du 2026-10-13 au 2026-11-16) : 11 pages dans l'index, 20 non indexées (15 redirections, 1 canonique ailleurs, 4 détectées non indexées). Éligibilité à la fiche Google non vérifiée.",
+    "date": "2026-11-21"
   },
   {
     "id": "WEB-013",
@@ -281,7 +281,7 @@
     "statut": "à faire",
     "priorite": "cette semaine",
     "compte": "Moi",
-    "brief": "Le site en ligne se contredit. Accueil, Tarifs et CGV : fiche Google Business Profile comprise sans condition. Page Fiche Google : comprise \"sous réserve d'éligibilité\" (Google refuse la fiche si tu ne vois jamais tes clients). Choisir une seule formulation pour tout le site, devis, CGV et guide 09 [WEB-011]. Acompte (30 % / 70 %), délai et option A sont tranchés d'après le site.",
+    "brief": "Contexte : la fiche Google Business Profile est la fiche Maps. Google ne l'accorde qu'aux activités qui voient leurs clients en personne (dans un local ou chez le client), pas aux activités 100 % à distance. Ton site dit deux choses : Accueil, Tarifs (\"Inclus\" dans Essentiel et Complet) et CGV art. 2 la promettent sans condition ; la page Fiche Google dit \"comprise sous réserve d'éligibilité\". Choix : A) \"sous réserve d'éligibilité\" partout (accueil, tarifs, CGV, devis, guide 09), cohérent avec la page dédiée ; B) sans condition partout, ce qui t'engage à compenser si Google refuse. [WEB-011]. Acompte, délai et option A sont tranchés d'après le site.",
     "etat": "1 décision restante sur 4.",
     "date": "2026-11-21"
   }
