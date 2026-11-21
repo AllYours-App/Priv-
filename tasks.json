@@ -117,7 +117,7 @@
     "priorite": "plus tard",
     "compte": "Web",
     "brief": "Le site promet la fiche Google Business Profile sans condition (section référencement, tableau des formules, FAQ de l'accueil). Le devis et les CGV disent \"si l'activité y est éligible\", comme le guide 09. Choisir la formulation (décision de Moi), puis modifier le site.",
-    "etat": "Bloqué : le site en ligne se contredit. Accueil, Tarifs et CGV promettent la fiche sans condition, la page Fiche Google dit \"sous réserve d'éligibilité\". Attend ta décision sur la formulation unique (WEB-026).",
+    "etat": "Choix A reçu. Documents du repo déjà conformes (02, 06, 07). Reste le site en ligne, que je ne peux pas modifier : voir WEB-027.",
     "date": "2026-11-21"
   },
   {
@@ -128,7 +128,7 @@
     "priorite": "cette semaine",
     "compte": "Moi",
     "brief": "Vérifier d'abord ton éligibilité à une fiche (reçois-tu des clients en personne ?). Search Console : propriété Domaine, TXT DNS, envoi du sitemap, inspection des 4 pages. Voir 09-guide. Plan 1.11, 3.5, 3.6.",
-    "etat": "Search Console actif : rapport d'indexation du 2026-11-21 reçu (données du 2026-10-13 au 2026-11-16) : 11 pages dans l'index, 20 non indexées (15 redirections, 1 canonique ailleurs, 4 détectées non indexées). Éligibilité à la fiche Google non vérifiée.",
+    "etat": "Search Console actif (11 pages indexées, 20 non indexées, dont 15 redirections, au 2026-11-16). Éligibilité à la fiche Google confirmée par Moi : il rencontre ses clients. Reste à créer la fiche.",
     "date": "2026-11-21"
   },
   {
@@ -278,11 +278,22 @@
     "id": "WEB-026",
     "domaine": "Sites web",
     "titre": "Décision en attente : formulation de la fiche Google",
-    "statut": "à faire",
+    "statut": "fait",
     "priorite": "cette semaine",
     "compte": "Moi",
     "brief": "Contexte : la fiche Google Business Profile est la fiche Maps. Google ne l'accorde qu'aux activités qui voient leurs clients en personne (dans un local ou chez le client), pas aux activités 100 % à distance. Ton site dit deux choses : Accueil, Tarifs (\"Inclus\" dans Essentiel et Complet) et CGV art. 2 la promettent sans condition ; la page Fiche Google dit \"comprise sous réserve d'éligibilité\". Choix : A) \"sous réserve d'éligibilité\" partout (accueil, tarifs, CGV, devis, guide 09), cohérent avec la page dédiée ; B) sans condition partout, ce qui t'engage à compenser si Google refuse. [WEB-011]. Acompte, délai et option A sont tranchés d'après le site.",
-    "etat": "1 décision restante sur 4.",
+    "etat": "Fait : choix A, \"sous réserve d'éligibilité\" partout.",
+    "date": "2026-11-21"
+  },
+  {
+    "id": "WEB-027",
+    "domaine": "Sites web",
+    "titre": "Site en ligne : fiche Google \"sous réserve d'éligibilité\" sur Accueil, Tarifs et CGV",
+    "statut": "à faire",
+    "priorite": "cette semaine",
+    "compte": "Moi",
+    "brief": "3 modifications dans le dépôt du site. Accueil : \"Fiche Google Business Profile créée à votre nom\" devient \"Fiche Google Business Profile à votre nom, si votre activité y est éligible\", idem dans la liste de l'Essentiel et dans la phrase \"Je crée aussi votre fiche...\". Tarifs : ligne \"Fiche Google Business Profile\", \"Inclus\" devient \"Inclus si éligible\" (Essentiel et Complet). CGV art. 2 : \"...avec référencement de base et création de la fiche Google Business Profile\" devient \"...avec référencement de base et, lorsque l'activité du client y est éligible selon les règles de Google, création de la fiche Google Business Profile\". À vérifier aussi : pages FAQ et Déroulement, non lues.",
+    "etat": "Pas commencé.",
     "date": "2026-11-21"
   }
 ]
