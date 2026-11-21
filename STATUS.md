@@ -1,7 +1,7 @@
 # Statut : compte Web
 
 Fait :
-- Repo lu en entier le 2026-11-20 (STATUS, tasks, 15 fichiers du dossier Suivi). Les statuts ci-dessous viennent du plan de lancement mis à jour le 2026-10-14 : tout ce qui s'est passé depuis n'est pas dans le repo.
+- Repo relu le 2026-11-21 : STATUS, tasks.json, 15 fichiers du dossier Suivi (6 sous-dossiers), pas de README. data/done.json absent de Central (data/ ne contient que inbox.json) : aucune tâche à Moi marquée faite. Les statuts ci-dessous viennent du plan de lancement mis à jour le 2026-10-14 : tout ce qui s'est passé depuis n'est pas dans le repo.
 - Site vitrine en ligne sur ducoinweb.fr (domaine OVH, DNS Cloudflare, Worker, HTTPS testé). Formulaire Formspree testé, rendez-vous meetergo intégré, mentions légales et confidentialité renseignées, aucun cookie.
 - Tests : accueil à 100 partout, contact à 89 en performance et 100 pour le reste.
 - Prospection : 3 emails + 2 réponses types (01), script d'appel (02), note de conformité (03), tableau de suivi structuré (04, vide), script Sirene (05).
@@ -16,9 +16,10 @@ En cours :
 - Panorama des outils : prix à confirmer sur les pages des fournisseurs.
 
 Bloqué :
-- Search Console et fiche Google : attendent l'envoi des fichiers sur GitHub et la vérification d'éligibilité.
+- Search Console et fiche Google (WEB-012) : attendent l'envoi des fichiers sur GitHub et la vérification d'éligibilité.
+- WEB-002, WEB-011, WEB-019, WEB-025 : attendent tes 4 décisions, regroupées dans WEB-026 (acompte, délai, fiche Google, frais de tiers).
 
-Incohérences relevées (toutes en tâches à faire, WEB-002, 010, 011, 019 à 025) :
+Incohérences relevées (WEB-002, 010, 011, 019 à 025) :
 - Acompte 40 % / 60 % (devis, contrat) contre 30 % / 70 % (CGV, plan). Décision à prendre.
 - Délai "5 jours" (site, emails, script) contre "5 jours ouvrés" (CGV, devis, contrat).
 - Fiche Google promise sans condition sur le site, "si éligible" ailleurs.
@@ -28,11 +29,13 @@ Incohérences relevées (toutes en tâches à faire, WEB-002, 010, 011, 019 à 0
 - Plan : 5 pages contre 4 pages publiques, Pages contre Workers, phases 6 à 8 en double, 11 réponses contre 12.
 
 Prochaine étape :
-- Trancher acompte, délai, formulation de la fiche Google et option A ou B, puis j'aligne les documents.
+- WEB-026 : tu tranches acompte, délai, fiche Google et option A ou B, puis j'aligne les documents.
+- En attendant, je traite ce qui ne dépend d'aucune décision : WEB-010, 020, 021, 022, 023, 024, 017.
 - Pousser les fichiers du site sur GitHub, puis Search Console.
 - Choisir les codes NAF, lancer 05-liste-sirene.py.
 - Mettre en ligne la section Prospection de la politique de confidentialité avant tout premier email.
 - Envoyer 03, 06, 07 et 08 à un juriste avant toute signature ou prospection.
 - Choisir une plateforme de facturation électronique (réception obligatoire depuis le 2026-09-01).
 
-Mis à jour le : 2026-11-20
+Mis à jour le : 2026-11-21
+Rythme : 0 tâche terminée sur la dernière fenêtre de 5 h
