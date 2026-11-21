@@ -267,11 +267,11 @@
     "id": "WEB-025",
     "domaine": "Sites web",
     "titre": "Incohérence frais de tiers : option A ou B du contrat, devis et CGV disent A",
-    "statut": "à faire",
+    "statut": "fait",
     "priorite": "cette semaine",
     "compte": "Web",
     "brief": "Le devis et les CGV (art. 2 et 4) disent que le client paie le domaine directement (option A). Le contrat laisse A et B ouvertes, et le plan 7.5 dit \"le client paie, ou tu paies et tu refactures\". Choisir A ou B (décision de Moi), puis garder une seule option dans le contrat et aligner devis, CGV et phase 7.5. L'option B est à faire valider par le juriste.",
-    "etat": "Décision reçue d'après le site en ligne : option A (le client paie le domaine directement, environ 10 à 15 € par an). À garder seule dans le contrat 08, puis aligner la phase 7.5 du plan.",
+    "etat": "Fait : option A seule dans le contrat 08 (art. 6 et 7, notes de rédaction) ; phase 7.5 et ligne de procédure alignées dans plan-de-lancement et plan-de-lancement-client. Devis et CGV disaient déjà option A.",
     "date": "2026-11-21"
   },
   {
