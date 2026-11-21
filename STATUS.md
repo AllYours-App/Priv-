@@ -17,7 +17,7 @@ En cours :
 - Panorama des outils : prix à confirmer sur les pages des fournisseurs.
 
 Bloqué :
-- Search Console et fiche Google (WEB-012) : attendent l'envoi des fichiers sur GitHub et la vérification d'éligibilité.
+- Fiche Google (WEB-012) : attend la vérification d'éligibilité. Search Console est actif (rapport d'indexation du 2026-11-21 : 11 pages indexées, 20 non indexées, dont 15 redirections).
 - WEB-011 : le site en ligne se contredit sur la fiche Google (sans condition ou sous réserve d'éligibilité). Décision dans WEB-026.
 
 Incohérences relevées (WEB-002, 010, 011, 019 à 025) :
