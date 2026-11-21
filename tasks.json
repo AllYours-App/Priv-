@@ -223,11 +223,11 @@
     "id": "WEB-021",
     "domaine": "Sites web",
     "titre": "À vérifier : 5 pages ou 4 pages publiques",
-    "statut": "à faire",
+    "statut": "fait",
     "priorite": "plus tard",
     "compte": "Web",
     "brief": "Le plan (1.1, 1.1b) parle des \"5 pages\" du site. Le guide 09 et appliquer-domaine.py en comptent 4 publiques (accueil, contact, mentions légales, confidentialité). Vérifier dans le dépôt du site ce que recouvre la 5e page (404 ?), puis corriger le texte du plan ou le script. Impacte aussi suivi-seo.xlsx.",
-    "etat": "Le dépôt mywebsite compte 14 pages publiques dans le sitemap (accueil, Tarifs, Réalisations, Déroulement, FAQ, À propos, Contact, 4 guides, mentions légales, confidentialité, CGV) plus 404.html sans canonical. Le plan (5 pages) et appliquer-domaine.py (4 pages) sont à corriger.",
+    "etat": "Fait : la 5e page du plan était la 404. Plan 1.1 et 1.1b et guide 09 corrigés (14 pages publiques + 404). appliquer-domaine.py détecte maintenant toutes les pages au lieu de 4 et a été testé sur une copie du site (sitemap : mêmes 14 URLs).",
     "date": "2026-11-21"
   },
   {
