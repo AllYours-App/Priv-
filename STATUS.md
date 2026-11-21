@@ -3,7 +3,7 @@
 Fait :
 - WEB-002 : acompte aligné à 30 % / 70 % dans le devis 06 et le contrat 08 (2026-11-21).
 - WEB-012 : fiche Google créée, sitemap envoyé.
-- WEB-011 et WEB-027 : "sous réserve d'éligibilité" poussé dans mywebsite (accueil, Tarifs, CGV, FAQ, Déroulement), mais pas encore visible en ligne sur Tarifs au 2026-11-21 : déploiement à vérifier. WEB-001 : fichiers SEO présents dans mywebsite.
+- WEB-011 et WEB-027 : "sous réserve d'éligibilité" en ligne sur accueil, Tarifs, CGV, FAQ et Déroulement (confirmé 2026-11-21). WEB-001 : fichiers SEO présents dans mywebsite.
 - WEB-021 : plan, guide 09 et appliquer-domaine.py alignés sur les 14 pages publiques du site (+ la 404).
 - Repo relu le 2026-11-21 : STATUS, tasks.json, 15 fichiers du dossier Suivi (6 sous-dossiers), pas de README. data/done.json absent de Central (data/ ne contient que inbox.json) : aucune tâche à Moi marquée faite. Les statuts ci-dessous viennent du plan de lancement mis à jour le 2026-10-14 : tout ce qui s'est passé depuis n'est pas dans le repo.
 - Site vitrine en ligne sur ducoinweb.fr (domaine OVH, DNS Cloudflare, Worker, HTTPS testé). Formulaire Formspree testé, rendez-vous meetergo intégré, mentions légales et confidentialité renseignées, aucun cookie.
@@ -39,4 +39,4 @@ Prochaine étape :
 - Choisir une plateforme de facturation électronique (réception obligatoire depuis le 2026-09-01).
 
 Mis à jour le : 2026-11-21
-Rythme : 5 tâches terminées sur la dernière fenêtre de 5 h
+Rythme : 7 tâches terminées sur la dernière fenêtre de 5 h
