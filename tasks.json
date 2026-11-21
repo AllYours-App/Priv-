@@ -7,18 +7,18 @@
     "priorite": "aujourd'hui",
     "compte": "Moi",
     "brief": "Le script a été appliqué pour ducoinweb.fr (canonical, og:url, og:image absolue, données structurées, sitemap sans .html, robots.txt). Il reste à envoyer les fichiers dans le dépôt du site, puis vérifier le déploiement. Plan 1.7, 3.1, 3.2.",
-    "etat": "Appliqué en local selon le plan du 2026-10-14, envoi non confirmé.",
-    "date": "2026-11-20"
+    "etat": "Page d'accueil en ligne le 2026-11-21 : canonical, og:url et og:image absolus présents. Envoi des fichiers dans le dépôt du site non confirmé.",
+    "date": "2026-11-21"
   },
   {
     "id": "WEB-002",
     "domaine": "Sites web",
     "titre": "Incohérence acompte : aligner devis, CGV, contrat et plan",
-    "statut": "bloqué",
+    "statut": "en cours",
     "priorite": "aujourd'hui",
     "compte": "Web",
     "brief": "Devis : 40 % / 60 %. CGV (art. 5 et 13) : 30 % / 70 %. Contrat (art. 11) : 40 %. Plan de lancement 4.1 : 30 % / 70 %. Choisir le pourcentage (décision de Moi), puis j'aligne les quatre documents.",
-    "etat": "Bloqué : attend ta décision sur le pourcentage d'acompte (WEB-026).",
+    "etat": "Décision reçue : 30 % / 70 % (site en ligne : CGV et Tarifs). CGV du repo et plan déjà alignés. Reste à corriger le devis 06 et le contrat 08 (art. 11).",
     "date": "2026-11-21"
   },
   {
@@ -117,7 +117,7 @@
     "priorite": "plus tard",
     "compte": "Web",
     "brief": "Le site promet la fiche Google Business Profile sans condition (section référencement, tableau des formules, FAQ de l'accueil). Le devis et les CGV disent \"si l'activité y est éligible\", comme le guide 09. Choisir la formulation (décision de Moi), puis modifier le site.",
-    "etat": "Bloqué : attend ta décision sur la formulation de la fiche Google (WEB-026).",
+    "etat": "Bloqué : le site en ligne se contredit. Accueil, Tarifs et CGV promettent la fiche sans condition, la page Fiche Google dit \"sous réserve d'éligibilité\". Attend ta décision sur la formulation unique (WEB-026).",
     "date": "2026-11-21"
   },
   {
@@ -201,11 +201,11 @@
     "id": "WEB-019",
     "domaine": "Sites web",
     "titre": "Incohérence délai : \"5 jours\" ou \"5 jours ouvrés\"",
-    "statut": "bloqué",
+    "statut": "à faire",
     "priorite": "cette semaine",
     "compte": "Web",
     "brief": "Le site, les emails de prospection (01) et le script d'appel (02) disent \"5 jours\". Les CGV (art. 6), le devis et le contrat disent 5 jours ouvrés. La note des CGV le signale déjà. Choisir jours ouvrés ou calendaires, puis aligner site, 01, 02, 06, 07 et 08.",
-    "etat": "Bloqué : attend ta décision jours ouvrés ou calendaires (WEB-026).",
+    "etat": "Décision reçue d'après la CGV en ligne (art. 5) : délai de mise en ligne de 5 jours à compter de la réception des textes et photos (sans \"ouvrés\"), réponses et validations du client sous 5 jours ouvrés. À aligner dans 01, 02, 06, 07 et 08.",
     "date": "2026-11-21"
   },
   {
@@ -227,8 +227,8 @@
     "priorite": "plus tard",
     "compte": "Web",
     "brief": "Le plan (1.1, 1.1b) parle des \"5 pages\" du site. Le guide 09 et appliquer-domaine.py en comptent 4 publiques (accueil, contact, mentions légales, confidentialité). Vérifier dans le dépôt du site ce que recouvre la 5e page (404 ?), puis corriger le texte du plan ou le script. Impacte aussi suivi-seo.xlsx.",
-    "etat": "Écart relevé, dépôt du site non lu.",
-    "date": "2026-11-20"
+    "etat": "Le site en ligne compte bien plus que 4 pages (Tarifs, Réalisations, Déroulement, FAQ, À propos, Contact, CGV, 4 guides, mentions légales, confidentialité). Dépôt du site non lu : liste à confirmer avant de corriger plan et script.",
+    "date": "2026-11-21"
   },
   {
     "id": "WEB-022",
@@ -267,22 +267,22 @@
     "id": "WEB-025",
     "domaine": "Sites web",
     "titre": "Incohérence frais de tiers : option A ou B du contrat, devis et CGV disent A",
-    "statut": "bloqué",
+    "statut": "à faire",
     "priorite": "cette semaine",
     "compte": "Web",
     "brief": "Le devis et les CGV (art. 2 et 4) disent que le client paie le domaine directement (option A). Le contrat laisse A et B ouvertes, et le plan 7.5 dit \"le client paie, ou tu paies et tu refactures\". Choisir A ou B (décision de Moi), puis garder une seule option dans le contrat et aligner devis, CGV et phase 7.5. L'option B est à faire valider par le juriste.",
-    "etat": "Bloqué : attend ta décision option A ou B pour les frais de tiers (WEB-026).",
+    "etat": "Décision reçue d'après le site en ligne : option A (le client paie le domaine directement, environ 10 à 15 € par an). À garder seule dans le contrat 08, puis aligner la phase 7.5 du plan.",
     "date": "2026-11-21"
   },
   {
     "id": "WEB-026",
     "domaine": "Sites web",
-    "titre": "Décisions en attente : acompte, délai, fiche Google, frais de tiers",
+    "titre": "Décision en attente : formulation de la fiche Google",
     "statut": "à faire",
     "priorite": "cette semaine",
     "compte": "Moi",
-    "brief": "4 choix à faire pour que j'aligne les documents. 1) Acompte : 30 % / 70 % (CGV, plan) ou 40 % / 60 % (devis, contrat) ? [WEB-002]. 2) Délai : 5 jours ouvrés (CGV, devis, contrat) ou 5 jours calendaires (site, emails 01, script 02) ? [WEB-019]. 3) Fiche Google : promise sans condition (site actuel) ou \"si l'activité est éligible\" (devis, CGV, guide 09) ? [WEB-011]. 4) Frais de tiers : option A (le client paie le domaine, devis et CGV) ou option B (tu paies et tu refactures, à valider par le juriste) ? [WEB-025].",
-    "etat": "En attente de tes 4 réponses.",
+    "brief": "Le site en ligne se contredit. Accueil, Tarifs et CGV : fiche Google Business Profile comprise sans condition. Page Fiche Google : comprise \"sous réserve d'éligibilité\" (Google refuse la fiche si tu ne vois jamais tes clients). Choisir une seule formulation pour tout le site, devis, CGV et guide 09 [WEB-011]. Acompte (30 % / 70 %), délai et option A sont tranchés d'après le site.",
+    "etat": "1 décision restante sur 4.",
     "date": "2026-11-21"
   }
 ]
