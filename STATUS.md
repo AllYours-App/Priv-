@@ -1,6 +1,7 @@
 # Statut : compte Web
 
 Fait :
+- WEB-002 : acompte aligné à 30 % / 70 % dans le devis 06 et le contrat 08 (2026-11-21).
 - Repo relu le 2026-11-21 : STATUS, tasks.json, 15 fichiers du dossier Suivi (6 sous-dossiers), pas de README. data/done.json absent de Central (data/ ne contient que inbox.json) : aucune tâche à Moi marquée faite. Les statuts ci-dessous viennent du plan de lancement mis à jour le 2026-10-14 : tout ce qui s'est passé depuis n'est pas dans le repo.
 - Site vitrine en ligne sur ducoinweb.fr (domaine OVH, DNS Cloudflare, Worker, HTTPS testé). Formulaire Formspree testé, rendez-vous meetergo intégré, mentions légales et confidentialité renseignées, aucun cookie.
 - Tests : accueil à 100 partout, contact à 89 en performance et 100 pour le reste.
@@ -29,7 +30,7 @@ Incohérences relevées (WEB-002, 010, 011, 019 à 025) :
 - Plan : 5 pages contre 4 pages publiques, Pages contre Workers, phases 6 à 8 en double, 11 réponses contre 12.
 
 Prochaine étape :
-- Décisions tirées du site en ligne : acompte 30 % / 70 %, délai de 5 jours (réponses client sous 5 jours ouvrés), option A pour le domaine. J'aligne les documents du repo : WEB-002 (en cours), puis WEB-019, 025, 010, 020.
+- Décisions tirées du site en ligne : acompte 30 % / 70 %, délai de 5 jours (réponses client sous 5 jours ouvrés), option A pour le domaine. J'aligne les documents du repo : WEB-002 fait (acompte 30 % / 70 % dans 06 et 08), WEB-019 en cours, puis 025, 010, 020.
 - WEB-026 : il reste la formulation de la fiche Google.
 - Pousser les fichiers du site sur GitHub, puis Search Console.
 - Choisir les codes NAF, lancer 05-liste-sirene.py.
@@ -38,4 +39,4 @@ Prochaine étape :
 - Choisir une plateforme de facturation électronique (réception obligatoire depuis le 2026-09-01).
 
 Mis à jour le : 2026-11-21
-Rythme : 0 tâche terminée sur la dernière fenêtre de 5 h
+Rythme : 1 tâche terminée sur la dernière fenêtre de 5 h
