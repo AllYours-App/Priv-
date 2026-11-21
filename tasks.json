@@ -201,11 +201,11 @@
     "id": "WEB-019",
     "domaine": "Sites web",
     "titre": "Incohérence délai : \"5 jours\" ou \"5 jours ouvrés\"",
-    "statut": "en cours",
+    "statut": "fait",
     "priorite": "cette semaine",
     "compte": "Web",
     "brief": "Le site, les emails de prospection (01) et le script d'appel (02) disent \"5 jours\". Les CGV (art. 6), le devis et le contrat disent 5 jours ouvrés. La note des CGV le signale déjà. Choisir jours ouvrés ou calendaires, puis aligner site, 01, 02, 06, 07 et 08.",
-    "etat": "Décision reçue d'après la CGV en ligne (art. 5) : délai de 5 jours à compter de la réception des textes et photos (sans \"ouvrés\"), réponses du client sous 5 jours ouvrés. À aligner dans 01, 02, 06, 07 et 08. Pas encore commencé.",
+    "etat": "Fait : délai de mise en ligne à 5 jours (sans \"ouvrés\") dans 06, 07 et 08, comme le site et la CGV en ligne. Réponses et validations du client restent à 5 jours ouvrés. 01 et 02 disaient déjà 5 jours.",
     "date": "2026-11-21"
   },
   {
