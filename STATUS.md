@@ -17,7 +17,7 @@ En cours :
 
 Bloqué :
 - Search Console et fiche Google (WEB-012) : attendent l'envoi des fichiers sur GitHub et la vérification d'éligibilité.
-- WEB-002, WEB-011, WEB-019, WEB-025 : attendent tes 4 décisions, regroupées dans WEB-026 (acompte, délai, fiche Google, frais de tiers).
+- WEB-011 : le site en ligne se contredit sur la fiche Google (sans condition ou sous réserve d'éligibilité). Décision dans WEB-026.
 
 Incohérences relevées (WEB-002, 010, 011, 019 à 025) :
 - Acompte 40 % / 60 % (devis, contrat) contre 30 % / 70 % (CGV, plan). Décision à prendre.
@@ -29,8 +29,8 @@ Incohérences relevées (WEB-002, 010, 011, 019 à 025) :
 - Plan : 5 pages contre 4 pages publiques, Pages contre Workers, phases 6 à 8 en double, 11 réponses contre 12.
 
 Prochaine étape :
-- WEB-026 : tu tranches acompte, délai, fiche Google et option A ou B, puis j'aligne les documents.
-- En attendant, je traite ce qui ne dépend d'aucune décision : WEB-010, 020, 021, 022, 023, 024, 017.
+- Décisions tirées du site en ligne : acompte 30 % / 70 %, délai de 5 jours (réponses client sous 5 jours ouvrés), option A pour le domaine. J'aligne les documents du repo : WEB-002 (en cours), puis WEB-019, 025, 010, 020.
+- WEB-026 : il reste la formulation de la fiche Google.
 - Pousser les fichiers du site sur GitHub, puis Search Console.
 - Choisir les codes NAF, lancer 05-liste-sirene.py.
 - Mettre en ligne la section Prospection de la politique de confidentialité avant tout premier email.
