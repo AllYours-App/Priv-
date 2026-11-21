@@ -25,13 +25,13 @@ Incohérences relevées (WEB-002, 010, 011, 019 à 025) :
 - Acompte : réglé (30 % / 70 %).
 - Délai : réglé (5 jours pour la mise en ligne, réponses client sous 5 jours ouvrés), WEB-019.
 - Fiche Google : réglé ("sous réserve d'éligibilité" partout).
-- Frais de tiers : option A décidée, à garder seule dans le contrat 08.
+- Frais de tiers : réglé (option A seule), WEB-025.
 - Emails 01 : variable [Prénom] sans colonne correspondante dans le tableau 04.
 - Mode d'emploi client : renvoie à l'article 12 au lieu du 11.
 - Plan : Pages contre Workers, phases 6 à 8 en double, 11 réponses contre 12. (5 pages contre 4 : réglé, WEB-021.)
 
 Prochaine étape :
-- Décisions tirées du site en ligne : acompte 30 % / 70 %, délai de 5 jours (réponses client sous 5 jours ouvrés), option A pour le domaine. J'aligne les documents du repo : WEB-002 et WEB-019 faits (acompte 30 % / 70 %, délai de 5 jours dans 06, 07 et 08), puis 025, 010, 020.
+- Décisions tirées du site en ligne : acompte 30 % / 70 %, délai de 5 jours (réponses client sous 5 jours ouvrés), option A pour le domaine. J'aligne les documents du repo : WEB-002, WEB-019 et WEB-025 faits (acompte 30 % / 70 %, délai de 5 jours, option A), puis 010 et 020.
 - Plus aucune décision en attente.
 - Choisir les codes NAF, lancer 05-liste-sirene.py.
 - Mettre en ligne la section Prospection de la politique de confidentialité avant tout premier email.
@@ -39,4 +39,4 @@ Prochaine étape :
 - Choisir une plateforme de facturation électronique (réception obligatoire depuis le 2026-09-01).
 
 Mis à jour le : 2026-11-21
-Rythme : 8 tâches terminées sur la dernière fenêtre de 5 h
+Rythme : 9 tâches terminées sur la dernière fenêtre de 5 h
