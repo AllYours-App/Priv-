@@ -14,11 +14,11 @@
     "id": "WEB-002",
     "domaine": "Sites web",
     "titre": "Incohérence acompte : aligner devis, CGV, contrat et plan",
-    "statut": "en cours",
+    "statut": "fait",
     "priorite": "aujourd'hui",
     "compte": "Web",
     "brief": "Devis : 40 % / 60 %. CGV (art. 5 et 13) : 30 % / 70 %. Contrat (art. 11) : 40 %. Plan de lancement 4.1 : 30 % / 70 %. Choisir le pourcentage (décision de Moi), puis j'aligne les quatre documents.",
-    "etat": "Décision reçue : 30 % / 70 % (site en ligne : CGV et Tarifs). CGV du repo et plan déjà alignés. Reste à corriger le devis 06 et le contrat 08 (art. 11).",
+    "etat": "Fait : acompte 30 % / 70 % dans le devis 06 et le contrat 08. CGV du repo et plan étaient déjà à 30 % / 70 %.",
     "date": "2026-11-21"
   },
   {
@@ -201,11 +201,11 @@
     "id": "WEB-019",
     "domaine": "Sites web",
     "titre": "Incohérence délai : \"5 jours\" ou \"5 jours ouvrés\"",
-    "statut": "à faire",
+    "statut": "en cours",
     "priorite": "cette semaine",
     "compte": "Web",
     "brief": "Le site, les emails de prospection (01) et le script d'appel (02) disent \"5 jours\". Les CGV (art. 6), le devis et le contrat disent 5 jours ouvrés. La note des CGV le signale déjà. Choisir jours ouvrés ou calendaires, puis aligner site, 01, 02, 06, 07 et 08.",
-    "etat": "Décision reçue d'après la CGV en ligne (art. 5) : délai de mise en ligne de 5 jours à compter de la réception des textes et photos (sans \"ouvrés\"), réponses et validations du client sous 5 jours ouvrés. À aligner dans 01, 02, 06, 07 et 08.",
+    "etat": "Décision reçue d'après la CGV en ligne (art. 5) : délai de 5 jours à compter de la réception des textes et photos (sans \"ouvrés\"), réponses du client sous 5 jours ouvrés. À aligner dans 01, 02, 06, 07 et 08. Pas encore commencé.",
     "date": "2026-11-21"
   },
   {
