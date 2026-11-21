@@ -8,13 +8,13 @@
 
 Pour le site d'un client, ajoute ses coordonnées (sinon ce sont les tiennes qui seraient publiées) :
     python3 appliquer-domaine.py https://domaine-client.fr --nom "Nom du client" --tel +33600000000 --email contact@domaine-client.fr --description "Plombier à Bayonne."
-Ajoute --sans-donnees-structurees pour ne pas insérer ce bloc.
+Ajoute --sans-donnees-structurees pour ne pas insérer ce bloc. Sans cette option, le bloc existant de index.html est
+remplacé par une version simple : à utiliser sur le site d'un client, pas pour relancer le script sur ton propre site.
 
 Ce que le script fait :
   - robots.txt : ligne Sitemap avec la vraie adresse
-  - sitemap.xml : regénéré avec les 4 pages publiques
-  - les 4 pages publiques : balise canonical
-  - index.html et contact.html : og:url et og:image en adresse absolue
+  - sitemap.xml : regénéré avec toutes les pages publiques (tous les .html de la racine sauf 404.html)
+  - les pages publiques : balise canonical, og:url et og:image en adresse absolue
   - index.html : données structurées (ProfessionalService)
   - supprime les commentaires « À REMPLACER »
 
@@ -25,13 +25,16 @@ Aucune dépendance à installer.
 import argparse, json, re, sys
 from pathlib import Path
 
-PAGES = {  # fichier -> chemin public
-    'index.html': '/',
-    'contact.html': '/contact',
-    'mentions-legales.html': '/mentions-legales',
-    'confidentialite.html': '/confidentialite',
-}
-AVEC_OG = ('index.html', 'contact.html')
+def pages_publiques():
+    """Fichier -> chemin public, pour chaque .html de la racine sauf 404.html (page d'erreur, hors sitemap).
+    Index en premier, puis ordre alphabétique : le script suit le site au lieu d'une liste à tenir à jour."""
+    fichiers = sorted(p.name for p in Path('.').glob('*.html') if p.name != '404.html')
+    if 'index.html' in fichiers:
+        fichiers.remove('index.html'); fichiers.insert(0, 'index.html')
+    return {f: '/' if f == 'index.html' else '/' + f[:-5] for f in fichiers}
+
+
+PAGES = pages_publiques()
 
 
 def lire(f): return Path(f).read_text(encoding='utf-8')
@@ -51,13 +54,13 @@ def balises_page(html, fichier, base):
     html = re.sub(r'[ \t]*<!-- À REMPLACER au déploiement[^>]*-->\n', '', html)
     html = re.sub(r'[ \t]*<link rel="canonical"[^>]*>\n', '', html)
     html = re.sub(r'[ \t]*<meta property="og:url"[^>]*>\n', '', html)
-    html = re.sub(r'[ \t]*<meta property="og:image" content="[^"]*">\n',
-                  f'  <meta property="og:image" content="{base}/assets/og-image.png">\n' if fichier in AVEC_OG else '', html)
+    html = re.sub(r'([ \t]*)<meta property="og:image" content="[^"]*">\n',
+                  lambda m: f'{m.group(1)}<meta property="og:image" content="{base}/assets/og-image.png">\n', html)
     # 2. ajoute canonical (et og:url) juste après la meta description
-    ajout = f'  <link rel="canonical" href="{url}">\n'
-    if fichier in AVEC_OG:
-        ajout += f'  <meta property="og:url" content="{url}">\n'
-    html, n = re.subn(r'(  <meta name="description" content="[^"]*">\n)', r'\1' + ajout.replace('\\', '\\\\'), html, count=1)
+    def ajouter(m):
+        i = m.group(1)
+        return m.group(0) + f'{i}<link rel="canonical" href="{url}">\n{i}<meta property="og:url" content="{url}">\n'
+    html, n = re.subn(r'([ \t]*)<meta name="description" content="[^"]*">\n', ajouter, html, count=1)
     if n != 1:
         sys.exit(f"{fichier} : balise meta description introuvable, rien n'a été modifié.")
     return html
@@ -73,7 +76,10 @@ def donnees_structurees(html, base, a):
     }
     bloc = '  <script type="application/ld+json">\n' + json.dumps(data, ensure_ascii=False, indent=2) + '\n  </script>\n'
     html = re.sub(r'[ \t]*<script type="application/ld\+json">.*?</script>\n', '', html, flags=re.S)
-    return html.replace('  <script>document.documentElement.classList.add', bloc + '  <script>document.documentElement.classList.add', 1)
+    html, n = re.subn(r'([ \t]*)<script>document\.documentElement\.classList\.add', lambda m: bloc + m.group(0), html, count=1)
+    if n != 1:
+        sys.exit("index.html : point d'insertion des données structurées introuvable, rien n'a été modifié.")
+    return html
 
 
 def main():
@@ -81,11 +87,13 @@ def main():
     ap.add_argument('domaine', help='adresse définitive, par exemple https://mondomaine.fr')
     ap.add_argument('--nom', default='P-A Ducoin')
     ap.add_argument('--tel', default='+33771717229')
-    ap.add_argument('--email', default='ducoin.co@gmail.com')
+    ap.add_argument('--email', default='contact@ducoinweb.fr')
     ap.add_argument('--description', default='Création de sites vitrines pour professionnels.')
     ap.add_argument('--sans-donnees-structurees', action='store_true')
     a = ap.parse_args()
     base = domaine_valide(a.domaine)
+    if not PAGES:
+        sys.exit("Aucune page .html trouvée : lance le script à la racine du dépôt.")
     for f in list(PAGES) + ['robots.txt', 'sitemap.xml']:
         if not Path(f).exists():
             sys.exit(f"{f} introuvable : lance le script à la racine du dépôt.")
