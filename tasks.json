@@ -113,11 +113,11 @@
     "id": "WEB-011",
     "domaine": "Sites web",
     "titre": "Incohérence fiche Google : le site la promet sans condition, devis et CGV disent \"si éligible\"",
-    "statut": "en cours",
+    "statut": "fait",
     "priorite": "plus tard",
     "compte": "Web",
     "brief": "Le site promet la fiche Google Business Profile sans condition (section référencement, tableau des formules, FAQ de l'accueil). Le devis et les CGV disent \"si l'activité y est éligible\", comme le guide 09. Choisir la formulation (décision de Moi), puis modifier le site.",
-    "etat": "Déploiement Cloudflare du commit WEB-011 confirmé par Moi (vers 11:35 UTC). Ma lecture de la page Tarifs affiche encore l'ancien texte, probablement du cache. À confirmer en navigation privée.",
+    "etat": "Fait : \"sous réserve d'éligibilité\" visible en ligne (confirmé par Moi, 2026-11-21) sur accueil, Tarifs, CGV, FAQ et Déroulement.",
     "date": "2026-11-21"
   },
   {
@@ -289,11 +289,11 @@
     "id": "WEB-027",
     "domaine": "Sites web",
     "titre": "Site en ligne : fiche Google \"sous réserve d'éligibilité\" sur Accueil, Tarifs et CGV",
-    "statut": "en cours",
+    "statut": "fait",
     "priorite": "cette semaine",
     "compte": "Moi",
     "brief": "3 modifications dans le dépôt du site. Accueil : \"Fiche Google Business Profile créée à votre nom\" devient \"Fiche Google Business Profile à votre nom, si votre activité y est éligible\", idem dans la liste de l'Essentiel et dans la phrase \"Je crée aussi votre fiche...\". Tarifs : ligne \"Fiche Google Business Profile\", \"Inclus\" devient \"Inclus si éligible\" (Essentiel et Complet). CGV art. 2 : \"...avec référencement de base et création de la fiche Google Business Profile\" devient \"...avec référencement de base et, lorsque l'activité du client y est éligible selon les règles de Google, création de la fiche Google Business Profile\". À vérifier aussi : pages FAQ et Déroulement, non lues.",
-    "etat": "Déploiement Cloudflare du commit WEB-011 confirmé par Moi (vers 11:35 UTC). Ma lecture de la page Tarifs affiche encore l'ancien texte, probablement du cache. À confirmer en navigation privée.",
+    "etat": "Fait : \"sous réserve d'éligibilité\" visible en ligne (confirmé par Moi, 2026-11-21) sur accueil, Tarifs, CGV, FAQ et Déroulement.",
     "date": "2026-11-21"
   }
 ]
